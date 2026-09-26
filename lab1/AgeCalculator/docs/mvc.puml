@@ -1,0 +1,33 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class Main
+class MainView {
+  +onModelChanged()
+}
+interface "ModelListener" {
+  +onModelChanged()
+}
+class AgeModel {
+  +addListener(l)
+  +setData(d,m,y)
+  +getYears() ...
+}
+class AgeController {
+  +openInputDialog(parent)
+  +processInput(d,m,y)
+}
+class InputDialog {
+  +setValues(d,m,y)
+}
+
+Main --> MainView
+Main --> AgeController
+Main --> AgeModel
+MainView ..|> "ModelListener"
+AgeModel o-- "ModelListener"
+MainView --> AgeController
+AgeController --> AgeModel
+AgeController --> InputDialog
+AgeModel ..> MainView : notify
+@enduml
