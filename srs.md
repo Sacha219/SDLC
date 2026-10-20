@@ -356,6 +356,6 @@
 
 ## 5. Приложения {#5-appendixes}
 
-* **Структурная диаграмма главной страницы:** [docs/images/dashboard_mockup.png](docs/images/dashboard_mockup.png)
-* **Структурная диаграмма личного кабинета:** [docs/images/my_lessons_mockup.png](docs/images/my_lessons_mockup.png)
+* **Структурная диаграмма мои занятия:** [ссылка на схему Мои занятия]([docs/images/dashboard_mockup.png](https://github.com/Sacha219/SDLC/blob/lab3/Приложения/Схема%20экрана%20«Мои%20занятия».png))
+* **Структурная диаграмма расписание:** [ссылка на схему расписание]([docs/images/my_lessons_mockup.png](https://github.com/Sacha219/SDLC/blob/lab3/Приложения/Схема%20экрана%20«Расписание».png))
 * **Репозиторий:** https://github.com/Sacha219/SDLC
