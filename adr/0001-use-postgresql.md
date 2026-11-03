@@ -1,7 +1,7 @@
 ---
 status: "accepted"
 date: 2026-11-03
-decision-makers: Лукашевич А.Д., Огородник Е.В.
+decision-makers: Лукашевич А.Д., Космицкая Д.В.
 consulted: Куприянова Д.В.
 informed: Команда разработки
 ---
